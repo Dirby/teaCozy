@@ -16,7 +16,6 @@ header {
     position: fixed;
     height: 69px;
     width: 100%;
-    padding-left: 10px;
     border-bottom: 1px solid seashell;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +26,7 @@ header {
     display: inline-block;
     align-content: flex-start;
     height: 50px;
+    padding-left: 10px;
 }
 
 .header-nav {
@@ -71,6 +71,8 @@ nav span a {
     justify-content: center;
     margin: auto;
     padding-top: 70px;
+    height: 700px;
+    width: 1000px;
 }
 
 .tea-month-headline {
@@ -90,9 +92,66 @@ nav span a {
 
 h2 h3 h4 {
     display: block;
+    padding: 10px;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 0px;
+    padding: 10px;
+}
+
+h4 {
+    margin: 0px;
+    padding: 5px;
+}
+
+.address p {
+    margin: 22px 0px;
+    padding: 0px;
+    font-size: 22px;
 }
 
 .tea-image {
     width: 300px;
     height: 200px;
+    margin: 10px;
+}
+
+/*  LOCATIONS SECTION  */
+.locations-section {
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1100px;
+    padding-top: 70px;
+    justify-content: center;
+    margin: auto;
+}
+
+.address {
+    display: inline-block;
+    flex-basis: 280px;
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+/*  CONTACT SECTION  */
+.contact-section {
+    height: 200px;
+}
+
+/*  FOOTER SECTION  */
+footer {
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: left;
 }
